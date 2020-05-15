@@ -1,0 +1,31 @@
+.navbar {
+  width: 100%;
+  background-color: darkviolet;
+  overflow: auto;
+}
+.navbar a {
+  float: right;
+  text-align: center;
+  padding: 12px;
+  color: whitesmoke;
+  text-decoration: initial;
+  font-size: 17px;
+}
+.navbar a:hover {
+  background-color: mediumpurple;
+}
+.active {
+  background-color: orchid;
+}
+@media screen and (max-width: 500px) {
+  .navbar a {
+    float: none;
+    display: -ms-grid;
+  }
+}
+body {
+  background-image: url(eq.jpg);
+  background-position: initial;
+  background-repeat: no-repeat;
+  background-size: 1540px;
+}
