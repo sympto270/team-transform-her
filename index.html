@@ -8,12 +8,85 @@
     <link href="js/index.js" rel="stylesheet" type="text/js">
   </head>
   <body>
+    <div class="home" id="home">
     <div class="navbar">
-      <a class="active" href="home.html"><i class="fa fa-fw fa-home"></i> Home</a>
-      <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
-      <a href="#"><i class="fa fa-fw fa-envelope"></i> Contact</a>
+      <a class="active" href="#home"><i class="fa fa-fw fa-home"></i> Home</a>
+      <a href="#about"><i class="fa fa-fw fa-group"></i> About Us</a>
+      <a href="#contact-form"><i class="fa fa-fw fa-envelope"></i> Contact</a>
       <a href="login.html"><i class="fa fa-fw fa-user"></i> Login</a>
-      <a href="services.html"><i class="fa fa-fw fa-gears"></i> Services</a>
-    </div> 
+      <a href="#objectives"><i class="fa fa-fw fa-gears"></i> Objectives</a>
+      <img src="transform.png" alt="A logo of Transform-her">
+    </div>
+    <img src="transform.png" alt="A logo of Transform-her">
+    <h1>TRANSFORM HER</h1>
+    <p>Come Let Us End Gender Inequality</p>
+    </div>
+    <div class="about" id="about">
+      <h2>ABOUT US</h2>
+      <p>Women are our every day to day pillars but at the same time they are not treated as it is deserved and this is why the <span>Transform her</span> group was formed. We sat down did some research and came up with some findings: Gender inequality is a global issue. Despite many solutions carried out to bridge the gap, the problem still persists. In most communities, women are not given equal opportunity as men for growth and development. This has worsen with the Covid-19 pandemic, with increasing reports of violence against women. Women and girls represent more than half of the world’s population and also half of its potential. But sadly enough, gender inequality continues to persist and stagnates social progress. It is worth noting that, empowerment of women and girls is essential to expand economic growth and promote social development. Enabling gender equality ensures a healthy society, and investing in income generating activities for women, can return 7USD  of every dollar spent.</p>
+      <p>There solutions we came up with and we hope to see them making a difference: To solve these issues on gender inequality, empowering women/girls to attain career success is pivotal.This enables them not to remain dependent on their abusers. This training will span for 6 months on innovative leadership and entrepreneurship strategies in their local languages. Lessons will be delivered through the Transform Her App: An interactive app where women/girls can interact with the app as if it were a live lecture. For example: They ask questions and receive instant responses, summary of lessons are sent to their cell phones  as text messages.</p>
+    </div>
+    <div class="image">
+    <img src="are.jpg" alt="A photo of gender equality">
+    </div>
+    <div class="objectives" id="objectives">
+      <h3>OBJECTIVES</h3>
+      <ul> 
+        <li>To train at least 100 women/girls annually across africa on leadership and entrepreneurship innovative strategies.</li>
+        <li>To nurture and establish at least 10 businesses  owned by women/girls per year.</li>
+        <li>To advertise products and services owned by women/girls through our platform for free.</li>
+        <li>To organize annual networking events, bringing women/girls across africa.</li>
+        <li>To offer annual awards to enterprises effectively enabling gender equality at the workplace, and recognize men advocating for gender equality.</li>
+      </ul>
+    </div>
+    <div class="pic">
+      <img src="equal.jpg" alt="Another photo on gender equality">
+    </div>
+    <div class="quote">
+    <p>"Boys and girls are <br>like two eyes of a person, </br>having equal function."</p>
+    </div>
+    <div id="contact-form">
+      <div>
+        <h1>Nice to Meet You!</h1> 
+        <h4>Have a question or just want to get in touch? Let's chat.</h4> 
+      </div>
+        <p id="failure">Oopsie...message not sent.</p>  
+        <p id="success">Your message was sent successfully. Thank you!</p>
+    
+           <form method="post" action="/">
+          <div>
+              <label for="name">
+                <span class="required">Name: *</span> 
+                <input type="text" id="name" name="name" value="" placeholder="Your Name" required="required" tabindex="1" autofocus="autofocus" />
+              </label> 
+          </div>
+          <div>
+              <label for="email">
+                <span class="required">Email: *</span>
+                <input type="email" id="email" name="email" value="" placeholder="Your Email" tabindex="2" required="required" />
+              </label>  
+          </div>
+          <div>		          
+              <label for="subject">
+              <span>Subject: </span>
+                <select id="subject" name="subject" tabindex="4">   
+                   <option value="hello">Women emporwerment</option>
+                   <option value="quote"></option>Growing ones business</option>  
+                   <option value="general">Online lectures</option>
+                </select>
+              </label>
+          </div>
+          <div>		          
+              <label for="message">
+                <span class="required">Message: *</span> 
+                <textarea id="message" name="message" placeholder="Please write your message here." tabindex="5" required="required"></textarea> 
+              </label>  
+          </div>
+          <div>		           
+              <button name="submit" type="submit" id="submit" >SEND</button> 
+          </div>
+           </form>
+    
+      </div>
   </body>
 </html>
